@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, } from 'react-native';
 import { TextInput, Button } from 'react-native-paper';
 import { Icon } from 'react-native-elements'
+import { Cards } from '../screen/Cards';
 
 
 export default function App() {
@@ -55,6 +56,7 @@ Watchlist
           </Text>
         </View>
       </View>
+      
     </View>
   );
 }
